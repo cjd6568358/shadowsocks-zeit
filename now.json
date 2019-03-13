@@ -1,12 +1,13 @@
 {
-  "name": "weimi-ss",
-  "public": true,
-  "type": "docker",
-  "features": {
-    "cloud": "v2"
-  },
-  "env": {
-    "KEY": "@ss-key",
-    "METHOD": "@ss-method"
-  }
+    "name": "weimi-ss",
+    "public": true,
+    "type": "docker",
+    "version": 1,
+    "features": {
+        "cloud": "v2"
+    },
+    "env": {
+        "KEY": "@ss-key",
+        "METHOD": "@ss-method"
+    }
 }
